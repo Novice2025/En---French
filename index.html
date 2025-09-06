@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Pronome 'En' em Francês</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0A192F;
+            color: #E2E8F0;
+            line-height: 1.6;
+        }
+        .gradient-text-title {
+            background: linear-gradient(90deg, #FF3300, #FFFFCC, #00CCCC, #FF00FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gradient-text-1 {
+            background: linear-gradient(90deg, #FFFFCC, #00CCCC);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .lesson-card {
+            background-color: #112240;
+            border-radius: 1rem;
+            padding: 2.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .quiz-option {
+            background-color: #4A5568;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            cursor: pointer;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+        .quiz-option:hover {
+            transform: translateY(-2px);
+            background-color: #718096;
+        }
+        .quiz-option.correct {
+            background-color: #10B981;
+        }
+        .quiz-option.incorrect {
+            background-color: #EF4444;
+        }
+        .quiz-option.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .btn-next, .btn-primary {
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            background-color: #FF00FF;
+            color: white;
+        }
+        .example-box {
+            background-color: #1A202C;
+            border-left: 4px solid #00CCCC;
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 0.5rem;
+        }
+        thead th {
+            text-align: left;
+            padding: 0.5rem;
+            font-weight: 700;
+            color: #a0aec0;
+            text-transform: uppercase;
+        }
+        tbody td {
+            background-color: #1A202C;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body class="p-6">
+    <div class="max-w-4xl mx-auto space-y-12">
+        <header class="text-center mb-10">
+            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight">
+                <span class="gradient-text-title">O Pronome 'En' em Francês</span>
+            </h1>
+            <p class="mt-4 text-lg text-slate-400">
+                Aprenda a usar este pronome adverbial para substituir a expressão de um lugar ou quantidade.
+            </p>
+        </header>
+
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-1">1. O que é o pronome 'En'?</span></h2>
+            <p class="text-slate-300">
+                O pronome `en` é um pronome adverbial que, em geral, substitui um substantivo introduzido pela preposição `de` ou um objeto de quantidade. Ele serve para evitar a repetição de uma informação já conhecida.
+            </p>
+            <p class="text-slate-400 italic">
+                <strong>Substitui:</strong>
+                <ul class="list-disc list-inside pl-4 mt-2">
+                    <li>Um substantivo de quantidade (ex: `beaucoup de`, `trois`, `un kilo`).</li>
+                    <li>Um substantivo introduzido pela preposição `de` (ex: `parler de`, `avoir besoin de`).</li>
+                    <li>Um lugar introduzido pela preposição `de` (ex: `venir de`, `partir de`).</li>
+                </ul>
+            </p>
+        </section>
+
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-1">2. Entendendo o 'En': Uma Comparação com o Português</span></h2>
+            <p class="text-slate-300">
+                O pronome 'en' é como um atalho. Em vez de repetir a coisa sobre a qual estamos falando (seja uma quantidade, um lugar ou um tópico), nós a substituímos pelo 'en'. No português, fazemos algo parecido, mas muitas vezes omitimos a palavra inteira ou a substituímos por pronomes como "dele(a)" ou "disso".
+            </p>
+            <p class="text-slate-300">
+                A regra geral é que o pronome `en` é colocado **antes do verbo**.
+            </p>
+            <div class="space-y-4">
+                <div class="example-box">
+                    <p class="text-lg font-semibold">Uso 1: Substituindo uma Quantidade</p>
+                    <p><em>J'ai <strong>trois frères</strong>.</em> (Eu tenho três irmãos.)</p>
+                    <p class="text-teal-300"><em>&rarr; J'<strong>en</strong> ai trois.</em> (Eu tenho três [deles].)</p>
+                    <p class="text-xs text-slate-400 mt-1">O `en` substitui "<strong>trois frères</strong>". No português, a palavra "deles" pode ser omitida ou fica subentendida. A quantidade, `trois`, é mantida no final.</p>
+                </div>
+                <div class="example-box">
+                    <p class="text-lg font-semibold">Uso 2: Substituindo 'de' + Substantivo</p>
+                    <p><em>Elle parle <strong>de ses vacances</strong>.</em> (Ela fala de suas férias.)</p>
+                    <p class="text-teal-300"><em>&rarr; Elle <strong>en</strong> parle.</em> (Ela fala [delas].)</p>
+                    <p class="text-xs text-slate-400 mt-1">O `en` substitui "<strong>de ses vacances</strong>". Em português, diríamos "Ela fala delas", mas o "delas" em francês é traduzido apenas pelo 'en' antes do verbo.</p>
+                </div>
+                <div class="example-box">
+                    <p class="text-lg font-semibold">Uso 3: Substituindo um Lugar</p>
+                    <p><em>Tu viens <strong>de la boulangerie</strong> ?</em> (Você vem da padaria?)</p>
+                    <p class="text-teal-300"><em>&rarr; Tu <strong>en</strong> viens ?</em> (Você vem [de lá]?)</p>
+                    <p class="text-xs text-slate-400 mt-1">O `en` substitui "<strong>de la boulangerie</strong>". A ideia é a mesma: o `en` evita a repetição do lugar ("da padaria").</p>
+                </div>
+                <div class="example-box">
+                    <p class="text-lg font-semibold">Exceção (Imperativo Afirmativo):</p>
+                    <p><em>Prends <strong>des pommes</strong> !</em> (Pegue algumas maçãs!)</p>
+                    <p class="text-teal-300"><em>&rarr; Prends-<strong>en</strong> !</em> (Pegue algumas!)</p>
+                    <p class="text-xs text-slate-400 mt-1">Neste caso, o `en` é colocado depois do verbo, com um hífen. Assim como o 'y', que significa "lá" e também vem depois do verbo no imperativo afirmativo.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-1">3. O 'En' em Português? Uma Comparação</span></h2>
+            <p class="text-slate-300">
+                Não existe um equivalente direto para o pronome "en" em português. Para expressar a mesma ideia, usamos estratégias diferentes, como pronomes, advérbios ou até mesmo a omissão de palavras. Veja a tabela abaixo para entender melhor:
+            </p>
+            <div class="overflow-x-auto rounded-lg">
+                <table class="w-full text-left text-slate-200">
+                    <thead>
+                        <tr class="bg-gray-800">
+                            <th class="p-4 rounded-tl-lg">Situação</th>
+                            <th class="p-4">Exemplo em Francês</th>
+                            <th class="p-4">Tradução Literal</th>
+                            <th class="p-4 rounded-tr-lg">Equivalente em Português</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p-4 font-semibold">Quantidade</td>
+                            <td class="p-4"><em>J'en ai trois.</em></td>
+                            <td class="p-4">Eu tenho **disso** três.</td>
+                            <td class="p-4">Eu tenho três.</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold">Substituindo 'de' + nome</td>
+                            <td class="p-4"><em>Elle en parle.</em></td>
+                            <td class="p-4">Ela **disso** fala.</td>
+                            <td class="p-4">Ela fala sobre isso.</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold">Lugar</td>
+                            <td class="p-4"><em>Tu en viens?</em></td>
+                            <td class="p-4">Tu **de lá** vens?</td>
+                            <td class="p-4">Você vem de lá?</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold">Imperativo</td>
+                            <td class="p-4"><em>Prends-en!</em></td>
+                            <td class="p-4">Pega **disso**!</td>
+                            <td class="p-4">Pegue um pouco!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- QUIZ SECTION -->
+        <section id="quiz-section" class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-1">4. Teste seu Conhecimento! 🧐</span></h2>
+            <div id="quiz-container">
+                <p id="question-text" class="text-lg mb-4"></p>
+                <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+                <p id="feedback-text" class="mt-4 font-bold"></p>
+                <button id="next-btn" class="btn-next mt-4 hidden">Próxima Pergunta</button>
+            </div>
+            <div id="quiz-results" class="hidden">
+                 <p class="text-2xl font-bold text-center">Quiz finalizado!</p>
+                 <p id="score-text" class="text-xl text-center mt-2"></p>
+                 <button id="restart-btn" class="btn-next mx-auto block mt-4">Tentar Novamente</button>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const quizData = [
+                {
+                    question: "Substitua a parte em negrito: 'Il a <strong>beaucoup de devoirs</strong>.'",
+                    options: ["Il en a beaucoup.", "Il a en beaucoup.", "Il a beaucoup en."],
+                    answer: "Il en a beaucoup.",
+                    explanation: "Correto! O 'en' substitui o objeto e a quantidade 'beaucoup' é mantida no final."
+                },
+                {
+                    question: "Substitua a parte em negrito: 'Nous sortons <strong>de l'université</strong>.'",
+                    options: ["Nous en sortons.", "Nous sortons en.", "Nous sortons de."],
+                    answer: "Nous en sortons.",
+                    explanation: "Perfeito! 'En' substitui a expressão de lugar 'de l'université' e se posiciona antes do verbo."
+                },
+                {
+                    question: "Qual a forma correta com 'en' da frase: 'Je mange <strong>un croissant</strong>.'",
+                    options: ["J'en mange un.", "Je mange un en.", "J'en un mange."],
+                    answer: "J'en mange un.",
+                    explanation: "Exato! 'En' substitui o substantivo, e o número 'un' é mantido."
+                },
+                {
+                    question: "Qual frase está no imperativo afirmativo e usa 'en' corretamente?",
+                    options: ["Écoute en!", "En écoute!", "Écoutes-en!"],
+                    answer: "Écoutes-en!",
+                    explanation: "Isso mesmo! No imperativo afirmativo, o 'en' vem depois do verbo, com um hífen. O 's' é adicionado para a sonoridade."
+                }
+            ];
+
+            let currentQuestionIndex = 0;
+            let score = 0;
+
+            const questionText = document.getElementById('question-text');
+            const optionsContainer = document.getElementById('options-container');
+            const feedbackText = document.getElementById('feedback-text');
+            const nextBtn = document.getElementById('next-btn');
+            const restartBtn = document.getElementById('restart-btn');
+            const quizContainer = document.getElementById('quiz-container');
+            const quizResults = document.getElementById('quiz-results');
+            const scoreText = document.getElementById('score-text');
+
+            function loadQuestion() {
+                feedbackText.textContent = '';
+                nextBtn.classList.add('hidden');
+                optionsContainer.innerHTML = '';
+
+                if (currentQuestionIndex >= quizData.length) {
+                    showResults();
+                    return;
+                }
+
+                const currentQuestion = quizData[currentQuestionIndex];
+                questionText.textContent = currentQuestion.question;
+
+                currentQuestion.options.forEach(option => {
+                    const button = document.createElement('button');
+                    button.textContent = option;
+                    button.classList.add('quiz-option');
+                    button.addEventListener('click', () => selectAnswer(button, currentQuestion));
+                    optionsContainer.appendChild(button);
+                });
+            }
+
+            function selectAnswer(selectedButton, question) {
+                const isCorrect = selectedButton.textContent === question.answer;
+
+                if (isCorrect) {
+                    selectedButton.classList.add('correct');
+                    feedbackText.textContent = question.explanation;
+                    feedbackText.style.color = '#10B981';
+                    score++;
+                } else {
+                    selectedButton.classList.add('incorrect');
+                    feedbackText.textContent = "Tente de novo! A resposta correta era: " + question.answer;
+                    feedbackText.style.color = '#EF4444';
+                    optionsContainer.querySelectorAll('.quiz-option').forEach(btn => {
+                        if (btn.textContent === question.answer) {
+                            btn.classList.add('correct');
+                        }
+                    });
+                }
+                optionsContainer.querySelectorAll('.quiz-option').forEach(btn => {
+                    btn.classList.add('disabled');
+                    btn.removeEventListener('click', selectAnswer);
+                });
+                nextBtn.classList.remove('hidden');
+            }
+            
+            function showResults() {
+                quizContainer.classList.add('hidden');
+                quizResults.classList.remove('hidden');
+                scoreText.textContent = `Você acertou ${score} de ${quizData.length} perguntas!`;
+            }
+
+            nextBtn.addEventListener('click', () => {
+                currentQuestionIndex++;
+                loadQuestion();
+            });
+            
+            restartBtn.addEventListener('click', () => {
+                currentQuestionIndex = 0;
+                score = 0;
+                quizResults.classList.add('hidden');
+                quizContainer.classList.remove('hidden');
+                loadQuestion();
+            });
+
+            loadQuestion();
+        });
+    </script>
+</body>
+</html>
